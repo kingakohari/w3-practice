@@ -34,15 +34,53 @@
 /*End of CSS reset*/
 
 
-#root {
-    background-color: #45ff32;
+#root{
+    background-color: #FA6700;
+    width: 400px;
+    height: 400px
 }
-
-div.container.wrapper {
-    background-color: #131517;
+#cube1{
+    background-color: #DB1D32;
+    width: 380px;
+    height: 380px
 }
-
-#root .container .container.wrapper{
-    width: 200px;
-    height: 200px
+#cube2{
+    background-color: #AD2CF2;
+    width: 360px;
+    height: 360px
+}
+#cube3{
+    background-color: #1D3EDB;
+    width: 340px;
+    height: 340px
+}
+#cube4{
+    background-color: #24FFE4;
+    width: 320px;
+    height: 320px
+}
+#cube5{
+    background-color: #09E010;
+    width: 300px;
+    height: 300px
+}
+#cube6{
+    background-color: #F5F500;
+    width: 280px;
+    height: 280px
+}
+#cube7{
+    background-color: #E09D00;
+    width: 260px;
+    height: 260px
+}
+#cube8{
+    background-color: #f8d6c6;
+    width: 240px;
+    height: 240px
+}
+#cube9{
+    background-color: #070707;
+    width: 220px;
+    height: 220px
 }
