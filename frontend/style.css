@@ -38,9 +38,9 @@ div{
 }
 
 #root{
-    position: fixed;
-    right: 0;
-    bottom: 0;
+    position: absolute;
+    top: 10px;
+    left: 10px;
     background-color: #FA6700;
     width: 400px;
     height: 400px
@@ -71,9 +71,9 @@ div{
     height: 300px
 }
 #cube6{
-    position: fixed;
-    left: 0;
-    top: 0;
+    position: absolute;
+    right: 0;
+    bottom: 0;
     background-color: #F5F500;
     width: 280px;
     height: 280px
@@ -90,9 +90,24 @@ div{
     height: 240px
 }
 #cube9{
-
+    position: absolute;
+    top: 0;
+    left: 0;
     background-color: #070707;
     width: 220px;
     height: 220px
 }
+section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    border-bottom: 1px solid blueviolet
 
+}
+section button{
+    right: 30px;
+    bottom: 30px;
+    width: 200px;
+    height: 60px;
+    background-color: magenta
+}
