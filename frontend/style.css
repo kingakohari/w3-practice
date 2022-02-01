@@ -33,81 +33,25 @@
 
 /*End of CSS reset*/
 
-div{
-    margin: auto;
-}
 
-#root{
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    background-color: #FA6700;
-    width: 400px;
-    height: 400px
-}
-#cube1{
-    background-color: #DB1D32;
-    width: 380px;
-    height: 380px
-}
-#cube2{
-    background-color: #AD2CF2;
-    width: 360px;
-    height: 360px
-}
-#cube3{
-    background-color: #1D3EDB;
-    width: 340px;
-    height: 340px
-}
-#cube4{
-    background-color: #24FFE4;
-    width: 320px;
-    height: 320px
-}
-#cube5{
-    background-color: #09E010;
-    width: 300px;
-    height: 300px
-}
-#cube6{
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    background-color: #F5F500;
-    width: 280px;
-    height: 280px
-}
-#cube7{
-    background-color: #E09D00;
-    width: 260px;
-    height: 260px
-}
-#cube8{
-
-    background-color: #f8d6c6;
-    width: 240px;
-    height: 240px
-}
-#cube9{
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: #070707;
-    width: 220px;
-    height: 220px
-}
 section{
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    border-bottom: 1px solid blueviolet
 
+    height: 150vh
 }
-section button{
+button{
     right: 30px;
     bottom: 30px;
     width: 200px;
     height: 60px;
     background-color: magenta
+}
+
+img{
+      /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
