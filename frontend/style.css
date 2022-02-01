@@ -36,8 +36,10 @@
 
 section{
 
-    height: 150vh
+    height: 150vh;
+    border-bottom: 1px solid green
 }
+
 button{
     right: 30px;
     bottom: 30px;
@@ -46,12 +48,23 @@ button{
     background-color: magenta
 }
 
-img{
-      /* Full height */
-  height: 100%; 
 
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+section.image-holder img{
+   
+   display: block;
+   width: 100%;
+   height: 150vh; 
+   object-fit: cover;
+   
+}
+
+section.background-holder{
+    padding: 20px;
+    border: 10px solid red;
+    background-clip: content-box;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/8/8c/Teahupoo1.jpg);
+    background-size: 700px 700px;
+    background-position: center center;
+    background-repeat:no-repeat;
+    background-color: lightcyan;
 }
