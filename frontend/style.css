@@ -123,8 +123,8 @@ section.image-holder button{
   padding-bottom: 10px
 }
 
-#contact button{
-  left: 50%;
+#submit{
+  transform: translateX(15%);
   width: 200px;
   height: 60px;
   border-radius: 30px;
