@@ -24,6 +24,7 @@ for (const sectionElement of listOfSectionElements) {
 
     console.log(anchors);
     rootElement.insertAdjacentHTML("afterbegin",`<header>${anchors}</header>`) //header előjön a weboldalon
-};
+
+}
 
 window.addEventListener("load", LoadEvent);
